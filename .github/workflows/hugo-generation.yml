@@ -3,7 +3,11 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main  
+    tags-ignore:
+      - '*.*' 
+    paths-ignore: 
+      - .\docs
 
 jobs:
   deploy:
@@ -23,8 +27,13 @@ jobs:
         run: |
               cd Settings
               hugo -D
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: push
+        uses: github-actions-x/commit@v2.7
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          push-branch: main
+          commit-message: ' adds auto-generated benchmarks and bar graph'
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           personal_token: ${{ secrets.PERSONAL_TOKEN }}
