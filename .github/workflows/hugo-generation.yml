@@ -32,8 +32,4 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           push-branch: main
-          commit-message: ' adds auto-generated benchmarks and bar graph'
-#       - name: Deploy
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          commit-message: 'adds auto-generated pages'
