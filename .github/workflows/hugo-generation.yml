@@ -30,6 +30,6 @@ jobs:
       - name: push
         uses: github-actions-x/commit@v2.7
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          github-token: ${{ secrets.PERSONAL_TOKEN }}
           push-branch: main
           commit-message: 'adds auto-generated pages'
