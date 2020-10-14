@@ -27,9 +27,9 @@ jobs:
         run: |
               cd Settings
               hugo -D
-      - name: push
-        uses: github-actions-x/commit@v2.7
+              
+      - name: Deploy
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github-token: ${{ secrets.PERSONAL_TOKEN }}
-          push-branch: main
-          commit-message: 'adds auto-generated pages'
+          commit_message: 'adds auto-generated pages'
+          branch: main
