@@ -15,9 +15,9 @@
       <guid>https://lucasfonsecazup.github.io/hugo-sample/getting-started/installation/</guid>
       <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
 Create your project Hugo provides a new command to create a new website.
-TESTE NEIVA !!!!!
 hugo new site &amp;lt;new_project&amp;gt; Install the theme Install the Hugo-theme-learn theme by following this documentation
-This theme&amp;rsquo;s repository is: https://github.com/matcornic/hugo-theme-learn.git</description>
+This theme&amp;rsquo;s repository is: https://github.com/matcornic/hugo-theme-learn.git
+Alternatively, you can download the theme as .</description>
     </item>
     
   </channel>
