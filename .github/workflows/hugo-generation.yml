@@ -3,7 +3,11 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main  
+    tags-ignore:
+      - '*.*' 
+    paths-ignore: 
+      - .\docs
 
 jobs:
   deploy:
@@ -18,15 +22,15 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.76.4'
+          extended: true
 
       - name: Build
         run: |
               cd Settings
               hugo -D
-
+              
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: main
+          commit_message: 'auto generated pages added'
+          branch: main
