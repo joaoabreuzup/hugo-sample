@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Goldydocs – Goldydocs</title>
+    <title>Goldydocs – LUCAS</title>
     <link>https://lucasfonsecazup.github.io/hugo-sample/</link>
-    <description>Recent content on Goldydocs</description>
+    <description>Recent content in LUCAS on Goldydocs</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	  <atom:link href="https://lucasfonsecazup.github.io/hugo-sample/index.xml" rel="self" type="application/rss+xml" />
