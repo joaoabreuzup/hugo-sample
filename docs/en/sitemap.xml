@@ -133,6 +133,11 @@
   </url>
   
   <url>
+    <loc>https://lucasfonsecazup.github.io/hugo-sample/community/</loc>
+    <lastmod>2020-10-29T15:42:25-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucasfonsecazup.github.io/hugo-sample/about/</loc>
     <lastmod>2020-10-20T16:02:42-03:00</lastmod>
   </url>
@@ -140,11 +145,6 @@
   <url>
     <loc>https://lucasfonsecazup.github.io/hugo-sample/blog/</loc>
     <lastmod>2020-10-20T16:02:42-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucasfonsecazup.github.io/hugo-sample/community/</loc>
-    <lastmod>2020-10-20T17:05:47-03:00</lastmod>
   </url>
   
   <url>
